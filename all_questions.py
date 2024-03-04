@@ -26,7 +26,7 @@ def question1():
     answers["(c) explain"] = "For certain data settings, K-means clustering may not be the most efficient clustering technique, while using less memory and being faster than agglomerative hierarchical clustering. Other clustering algorithms might work better in certain circumstances."
 
     # type: bool (True/False)
-    answers["(d)"] = -1
+    answers["(d)"] = Decreases
 
     # type: explanatory string (at least four words)
     answers["(d) explain"] = "Depending on the new centroid, splitting a cluster can either raise or lower the clustering's SSE. Since reducing the SSE is the aim, splitting a cluster should be decided depending on how much the clustering quality might improve."
@@ -47,7 +47,7 @@ def question1():
     answers["(g)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(g) explain"] = "In k-means clustering, cohesion and separation are independent. It is not necessary to increase SSB (separation) in order to decrease SSE (cohesion), and vice versa."
+    answers["(g) explain"] = "In k-means clustering, cohesion and separation are independent. It is not necessary to increase SSB (separation) to decrease SSE (cohesion), and vice versa."
 
     # type: bool (True/False)
     answers["(h)"] = False
@@ -116,40 +116,40 @@ def question4():
     answers = {}
 
     # type: int
-    answers["(a) Circle (a)"] = 1
+    answers["(a) Circle (a)"] = 0
 
     # type: int
-    answers["(a) Circle (b)"] = 1
+    answers["(a) Circle (b)"] = 3
 
     # type: int
-    answers["(a) Circle (c)"] = 1`
+    answers["(a) Circle (c)"] = 0
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = "The centroids are most likely to remain inside circle B since the distances between circles A and B and between B and C are equal."
+    answers["(a) explain"] = "optimal clustering is going to happen "
 
     # type: int
     answers["(b) Circle (a)"] = 1
 
     # type: int
-    answers["(b) Circle (b)"] = 0
+    answers["(b) Circle (b)"] = 2
 
     # type: int
-    answers["(b) Circle (c)"] = 2
+    answers["(b) Circle (c)"] = 0
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = "Since there are similar distances between circles A and B and between circles B and C, each centroid ought to converge inside its original circle."
 
     # type: int
-    answers["(c) Circle (a)"] = 0
+    answers["(c) Circle (a)"] = 1
 
     # type: int
-    answers["(c) Circle (b)"] = 1
+    answers["(c) Circle (b)"] = 0
 
     # type: int
     answers["(c) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "For optimal clustering, this distribution makes sure that every centroid is closest to the cluster it started with."
 
     return answers
 

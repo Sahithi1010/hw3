@@ -116,37 +116,37 @@ def question4():
     answers = {}
 
     # type: int
-    answers["(a) Circle (a)"] = 0
+    answers["(a) Circle (a)"] = 1
 
     # type: int
-    answers["(a) Circle (b)"] = 0
+    answers["(a) Circle (b)"] = 1
 
     # type: int
-    answers["(a) Circle (c)"] = 0
+    answers["(a) Circle (c)"] = 1`
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "The centroids are most likely to remain inside circle B since the distances between circles A and B and between B and C are equal."
 
     # type: int
-    answers["(b) Circle (a)"] = 0
+    answers["(b) Circle (a)"] = 1
 
     # type: int
     answers["(b) Circle (b)"] = 0
 
     # type: int
-    answers["(b) Circle (c)"] = 0
+    answers["(b) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "Since there are similar distances between circles A and B and between circles B and C, each centroid ought to converge inside its original circle."
 
     # type: int
     answers["(c) Circle (a)"] = 0
 
     # type: int
-    answers["(c) Circle (b)"] = 0
+    answers["(c) Circle (b)"] = 1
 
     # type: int
-    answers["(c) Circle (c)"] = 0
+    answers["(c) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
     answers["(c) explain"] = ""
@@ -182,13 +182,13 @@ def question6():
     answers = {}
 
     # type: set
-    answers["(a) core"] = set(A,B,C,D,E,F,G,H,I,J)
+    answers["(a) core"] = set(B,C,E,F,G)
 
     # type: set
-    answers["(a) boundary"] = set(L,M)
+    answers["(a) boundary"] = set(D)
 
     # type: set
-    answers["(a) noise"] = set()
+    answers["(a) noise"] = set(A,H,M,J,I,L)
 
     # type: set
     answers["(b) cluster 1"] = set()
@@ -233,16 +233,16 @@ def question7():
     answers = {}
 
     # type: string
-    answers["(a)"] = ""
+    answers["(a)"] = "cluster 4"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = " Cluster 4 has the highest entropy, indicating that it contains a diverse mix of land cover types."
 
     # type: string
-    answers["(b)"] = ""
+    answers["(b)"] = "cluster 1"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "Cluster 1 has the lowest entropy, a more homogeneous set of land cover categories can be found within it."
 
     return answers
 
@@ -314,16 +314,16 @@ def question9():
     answers = {}
 
     # type: list
-    answers["(a)"] = ['hierarchical','fuzzy', 'partial']
+    answers["(a)"] = ['hierarchical','fuzzy', 'partial'] #overlapping
 
     # type: list
-    answers["(b)"] = ['hierarchical','overlapping','partial']
+    answers["(b)"] = ['hierarchical','overlapping','partial'] #partitional,exclusive,partial
 
     # type: list
-    answers["(c)"] = ['partitional', 'non-exclusive', 'partial']
+    answers["(c)"] = ['partitional', 'exclusive', 'partial']
 
     # type: list
-    answers["(d)"] = ['','overlapping','fuzzy']
+    answers["(d)"] = ['hierachical','overlapping','partial']
 
     # type: list
     answers["(e)"] = ['partitional', 'exclusive','complete']

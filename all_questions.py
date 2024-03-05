@@ -293,16 +293,16 @@ def question8():
     answers["(b) Row 4"] = "D"
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 1 explain"] = ""
+    answers["(b) Row 1 explain"] = "This row denotes a cluster of points, the distance between the points are shown as the colours and different distances indicate different colours."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 2 explain"] = ""
+    answers["(b) Row 2 explain"] = "The second cluster's colors correspond to the separations between the points, There may be variations in the color patterns and intensities from Row A, and distances between points within a particular cluster are shown by Row B."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 3 explain"] = ""
+    answers["(b) Row 3 explain"] = "The third cluster's colors indicate the separations between the points and exact color combination can change."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 4 explain"] = ""
+    answers["(b) Row 4 explain"] = "It differs from the other rows in terms of color distribution and general layout and this represents the separations between points in a specific cluster."
 
     return answers
 

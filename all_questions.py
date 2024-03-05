@@ -314,19 +314,19 @@ def question9():
     answers = {}
 
     # type: list
-    answers["(a)"] = ['hierarchical','fuzzy', 'partial'] #overlapping
+    answers["(a)"] = ['hierarchical', 'fuzzy', 'partial'] #overlapping
 
     # type: list
-    answers["(b)"] = ['hierarchical','overlapping','partial'] #partitional,exclusive,partial
+    answers["(b)"] = ['hierarchical', 'overlapping', 'partial'] #partitional,exclusive,partial
 
     # type: list
     answers["(c)"] = ['partitional', 'exclusive', 'partial']
 
     # type: list
-    answers["(d)"] = ['hierachical','overlapping','partial']
+    answers["(d)"] = ['hierarchical,'overlapping', 'partial']
 
     # type: list
-    answers["(e)"] = ['partitional', 'exclusive','complete']
+    answers["(e)"] = ['partitional', 'exclusive', 'complete']
 
     # type: explanatory string (at least four words)
     answers["(e) explain"] = ""
@@ -341,25 +341,25 @@ def question10():
     answers = {}
 
     # type: string
-    answers["(a) Figure (a)"] = ""
+    answers["(a) Figure (a)"] = "Yes"
 
     # type: string
-    answers["(a) Figure (b)"] = ""
+    answers["(a) Figure (b)"] = "Yes"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "In both cases, DBSCAN can be effective for finding facial representations by assessing the spatial density of the data points."
 
     # type: string
-    answers["(b) Figure (a)"] = ""
+    answers["(b) Figure (a)"] = "Yes"
 
     # type: string
-    answers["(b) Figure (b)"] = ""
+    answers["(b) Figure (b)"] = "Yes"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "it is a technique that groups together comparable data points to identify patterns within a dataset. When it comes to face characteristics l, k-means can be utilized to find patterns within them depending on dimensions, positions, and shapes."
 
     # type: string
-    answers["(c)"] = ""
+    answers["(c)"] = "k-means"
 
     return answers
 

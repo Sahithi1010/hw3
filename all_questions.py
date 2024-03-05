@@ -98,13 +98,13 @@ def question3():
     answers = {}
 
     # type: a string that evaluates to a float
-    answers["(a) SSE"] = "4*R^2"
+    answers["(a) SSE"] = "4*R**2"
 
     # type: a string that evaluates to a float
-    answers["(b) SSE"] = "4*squart(a^2+b^2)"
+    answers["(b) SSE"] = "4*(a**2+b**2+c**2)"
 
     # type: a string that evaluates to a float
-    answers["(c) SSE"] = "5*R^2" #doubt
+    answers["(c) SSE"] = "5*R**2"
 
     return answers
 
@@ -140,7 +140,7 @@ def question4():
     answers["(b) explain"] = "Since there are similar distances between circles A and B and between circles B and C, each centroid ought to converge inside its original circle."
 
     # type: int
-    answers["(c) Circle (a)"] = 1 #doubt
+    answers["(c) Circle (a)"] = 0
 
     # type: int
     answers["(c) Circle (b)"] = 0
@@ -191,7 +191,7 @@ def question6():
     answers["(a) noise"] = {'A','H'}
 
     # type: set
-    answers["(b) cluster 1"] = {'B','C','E','F','G','E','D'}
+    answers["(b) cluster 1"] = {'B','C','E','F','G','D'}
 
     # type: set
     answers["(b) cluster 2"] = {'I','J','L','M'}
@@ -254,7 +254,7 @@ def question8():
     answers = {}
 
     # type: string
-    answers["(a) Matrix 1"] = "Dataset-z"
+    answers["(a) Matrix 1"] = "Dataset Z"
 
     # type: explanatory string (at least four words)
     answers["(a) explain diag entries, Matrix 1"] = "The blue indicates low distances, suggesting well-separated clusters."
@@ -263,7 +263,7 @@ def question8():
     answers["(a) explain non-diag entries, Matrix 1"] = "Different patterns of colors suggest another set of cluster distributions."
 
     # type: string
-    answers["(a) Matrix 2"] = "Dataset-x"
+    answers["(a) Matrix 2"] = "Dataset X"
 
     # type: explanatory string (at least four words)
     answers["(a) explain diag entries, Matrix 2"] = "The blue indicates low distances, suggesting well-separated clusters."
@@ -272,7 +272,7 @@ def question8():
     answers["(a) explain non-diag entries, Matrix 2"] = "All other colours indicates high distances, implying clear boundaries between clusters."
 
     # type: string
-    answers["(a) Matrix 3"] = "Dataset-y"
+    answers["(a) Matrix 3"] = "Dataset Y"
 
     # type: explanatory string (at least four words)
     answers["(a) explain diag entries, Matrix 3"] = "Diagonal entry corresponds to the distance of a point from itself."
@@ -281,16 +281,16 @@ def question8():
     answers["(a) explain non-diag entries, Matrix 3"] = "Some green and yellow regions indicate overlapping or less distinct clusters."
 
     # type: string
-    answers["(b) Row 1"] = "Cluster-a"
+    answers["(b) Row 1"] = "A"
 
     # type: string
-    answers["(b) Row 2"] = "Cluster-b"
+    answers["(b) Row 2"] = "B"
 
     # type: string
-    answers["(b) Row 3"] = "Cluster-c"
+    answers["(b) Row 3"] = "C"
 
     # type: string
-    answers["(b) Row 4"] = "Cluster-d"
+    answers["(b) Row 4"] = "D"
 
     # type: explanatory string (at least four words)
     answers["(b) Row 1 explain"] = ""

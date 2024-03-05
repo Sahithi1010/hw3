@@ -104,7 +104,7 @@ def question3():
     answers["(b) SSE"] = "4*squart(a^2+b^2)"
 
     # type: a string that evaluates to a float
-    answers["(c) SSE"] = "5*R^2" doubt
+    answers["(c) SSE"] = "5*R^2" #doubt
 
     return answers
 
@@ -125,7 +125,7 @@ def question4():
     answers["(a) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = "optimal clustering is going to happen "
+    answers["(a) explain"] = "optimal clustering is going to happen"
 
     # type: int
     answers["(b) Circle (a)"] = 1
@@ -140,7 +140,7 @@ def question4():
     answers["(b) explain"] = "Since there are similar distances between circles A and B and between circles B and C, each centroid ought to converge inside its original circle."
 
     # type: int
-    answers["(c) Circle (a)"] = 1 doubt
+    answers["(c) Circle (a)"] = 1 #doubt
 
     # type: int
     answers["(c) Circle (b)"] = 0
@@ -161,13 +161,13 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = set{Group A,Group B}
+    answers["(a)"] = {"Group A","Group B"}
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = "The distance between the top left point in Group A and the top right point in Group B is the shortest path that separates them."
 
     # type: set
-    answers["(b)"] = set{Group A,Group C}
+    answers["(b)"] = {'Group A','Group C'}
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = "The distance between the bottom left point in Group C and the bottom right point in Group A is the longest between them."
@@ -182,19 +182,19 @@ def question6():
     answers = {}
 
     # type: set
-    answers["(a) core"] = set{E,B,F,G,C,L,M,I}
+    answers["(a) core"] = {'E','B','F','G','C','L','M','I'}
 
     # type: set
-    answers["(a) boundary"] = set{D,G}
+    answers["(a) boundary"] = {'D','G'}
 
     # type: set
-    answers["(a) noise"] = set{A,H}
+    answers["(a) noise"] = {'A','H'}
 
     # type: set
-    answers["(b) cluster 1"] = set{B, C,E, F,G, E,D}
+    answers["(b) cluster 1"] = {'B','C','E','F','G','E','D'}
 
     # type: set
-    answers["(b) cluster 2"] = set{I,J,L,M}
+    answers["(b) cluster 2"] = {'I','J','L','M'}
 
     # type: set
     answers["(b) cluster 3"] = set()
@@ -203,19 +203,19 @@ def question6():
     answers["(b) cluster 4"] = set()
 
     # type: set
-    answers["(c)-a core"] = set{B,C,D,E,F,G,I,J,L,M}
+    answers["(c)-a core"] = {'B','C','D','E','F','G','I','J','L','M'}
 
     # type: set
-    answers["(c)-a boundary"] = set{A,H}
+    answers["(c)-a boundary"] = {'A','H'}
 
     # type: set
     answers["(c)-a noise"] = set()
 
     # type: set
-    answers["(c)-b cluster 1"] = set{A,B,C,D,E,F,G,H,I,J,L,M}
+    answers["(c)-b cluster 1"] = {'A','B','C','D','E','F','G','H','I','J','L','M'}
 
     # type: set
-    answers["(c)-b cluster 2"] = set{A}
+    answers["(c)-b cluster 2"] = {'A'}
 
     # type: set
     answers["(c)-b cluster 3"] = set()

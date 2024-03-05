@@ -14,19 +14,19 @@ def question1():
     answers["(a) explain"] = "Since agglomerative hierarchical clustering combines data points according to similarity rather than cluster centroids, it is more robust against outliers than k-means."
 
     # type: bool (True/False)
-    answers["(b)"] = True #changed
+    answers["(b)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = "Different clusterings can be produced by k-means and agglomerative hierarchical clustering, depending on the initial conditions and algorithm parameters. A few variables that influence the clustering result are the number of clusters, initial centroids, distance measure, and linking technique."
-
+    answers["(b) explain"] = "While many K-means runs can generate different results, hierarchical clustering processes will always result in the same clustering."
+    
     # type: bool (True/False)
     answers["(c)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = "For certain data settings, K-means clustering may not be the most efficient clustering technique, while using less memory and being faster than agglomerative hierarchical clustering. Other clustering algorithms might work better in certain circumstances."
+    answers["(c) explain"] = "For certain data settings, K-means clustering may not be the most efficient clustering technique, using less memory and being faster than agglomerative hierarchical clustering. Other clustering algorithms might work better in certain circumstances."
 
     # type: bool (True/False)
-    answers["(d)"] = False #ch
+    answers["(d)"] = False
 
     # type: explanatory string (at least four words)
     answers["(d) explain"] = "Depending on the new centroid, splitting a cluster can either raise or lower the clustering's SSE. Since reducing the SSE is the aim, splitting a cluster should be decided depending on how much the clustering quality might improve."
@@ -44,16 +44,16 @@ def question1():
     answers["(f) explain"] = "Since there is a greater distance between the clusters in k-means clustering, higher SSB results in better cluster separation."
 
     # type: bool (True/False)
-    answers["(g)"] = False #cha
+    answers["(g)"] = False 
 
     # type: explanatory string (at least four words)
-    answers["(g) explain"] = "In k-means clustering, cohesion and separation are independent. It is not necessary to increase SSB (separation) to decrease SSE (cohesion), and vice versa."
+    answers["(g) explain"] = "K-means prioritizes cohesiveness rather than separation by default."
 
     # type: bool (True/False)
-    answers["(h)"] = True #cha
+    answers["(h)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(h) explain"] = "When making adjustments to the clusters or adding or removing data points, SSE and BSS in k-means clustering might also vary."
+    answers["(h) explain"] = "The sum of SSE and BSS (SSE + BSS) is indeed a constant (equal to TSS) during K-means clustering."
 
     # type: bool (True/False)
     answers["(i)"] = True #cha
@@ -257,28 +257,28 @@ def question8():
     answers["(a) Matrix 1"] = "Dataset-z"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 1"] = ""
+    answers["(a) explain diag entries, Matrix 1"] = "The blue indicates low distances, suggesting well-separated clusters."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 1"] = ""
+    answers["(a) explain non-diag entries, Matrix 1"] = "Different patterns of colors suggest another set of cluster distributions."
 
     # type: string
     answers["(a) Matrix 2"] = "Dataset-x"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 2"] = ""
+    answers["(a) explain diag entries, Matrix 2"] = "The blue indicates low distances, suggesting well-separated clusters."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 2"] = ""
+    answers["(a) explain non-diag entries, Matrix 2"] = "All other colours indicates high distances, implying clear boundaries between clusters."
 
     # type: string
     answers["(a) Matrix 3"] = "Dataset-y"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 3"] = ""
+    answers["(a) explain diag entries, Matrix 3"] = "Diagonal entry corresponds to the distance of a point from itself."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 3"] = ""
+    answers["(a) explain non-diag entries, Matrix 3"] = "Some green and yellow regions indicate overlapping or less distinct clusters."
 
     # type: string
     answers["(b) Row 1"] = "Cluster-a"
